@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+
+            display:flex;
+            justify-content: center; /*It remain center eventhough screen size changes - moves items along the main axis*/
+             /*-It is used similar to float, properties are flex-start,flex-end, center, space-between, space-around, space-evenly*/
+             height: 100vh; /*viewport height*/
+             align-items:center; /*property: flex-end, Stretch, space-between, space-around, space-evenly - moves items along the cross axis (opp of main axis)*/
+             align-content: space-between; /* If there are 2 content it  will leave space between them - cross axis*/
+             flex-wrap: wrap; /*it will wrap the mainitems- property: nowrap, wrap, wrap-reverse*/
+             flex-flow: wrap-row; /*shorthand property for flex wrap and flex direction value */
+             order:1 /*It will order the items*/
+        }
+        .boxes{
+            border:1px solid rgb(199, 144, 41);
+            width:100px;
+            height: 100px;
+            text-align: center;
+            font-size: 22px;
+            flex-grow: 1; /*it affects the size of the item or it can be 2 or 3 both vertically and horizontal*/
+            flex-direction: row; /* property:row-reverse,column, column-reverse - U can change the direction*/
+        }
+        #box1{
+            background-color: aqua;
+            flex-grow: 4;
+        }
+        #box2{
+            background-color: rgb(58, 78, 78);
+        }
+        #box3{
+            background-color: rgb(148, 216, 216);
+            
+        }
+        #box4{
+            background-color: rgb(73, 93, 93);
+            margin-left: auto;
+        }
+        #box5{
+            background-color: rgb(12, 240, 240);
+            margin-right: auto;
+        }
+        #box6{
+            background-color: rgb(26, 61, 61);
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> <!--div*6.div.boxes#div${$}-->
+        <div id="box1" class="boxes">1</div>
+        <div id="box2" class="boxes">2</div>
+        <div id="box3" class="boxes">3</div>
+    <!--    <div id="box4" class="boxes">4</div>
+        <div id="box5" class="boxes">5</div>
+        <div id="box6" class="boxes">6</div>-->
+
+
+
+    </div>
+</body>
+</html>

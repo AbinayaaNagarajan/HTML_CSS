@@ -1,0 +1,170 @@
+/* Reset some default styles to ensure consistent behavior across browsers */
+body, h1, h2, h3, p, ul, ol, li, a, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+  }
+  
+  /* Set a base font size and family for better readability */
+  body {
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Define a container to center the content and provide some spacing */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Create a simple navigation bar */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  /* Style headings */
+  h1, h2, h3 {
+    margin: 20px 0;
+    font-weight: bold;
+  }
+  
+  /* Add some default styles for links and buttons */
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #71071C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Set a background color for the page */
+  body {
+    background-color: #f4f4f4;
+  }
+  
+  /* Define a simple layout for the footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Add a class for primary content sections */
+  .section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
+  /* You can add more specific styles for your project below this point */
+  
+  /* My Code Starts here */
+
+  /*Navigation Starts*/
+
+  ul{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #333;
+    margin: 0;
+    padding:0 0 0 1200px;
+    overflow: hidden;
+
+  }
+
+  ul li{
+    float:left;
+    Padding:20px 20px 20px 20px;
+    background-color: #B63053;
+    border-right: 1px solid #fff;
+    
+  }
+
+  ul li a{
+    color:#fff; 
+  }
+  ul li a:hover{
+    color:#000;
+  }
+  li a.active{
+    color:#000;
+    
+   li a img{
+    padding:0 5px 0 0;
+   }
+  }
+  
+  li:last-child{
+    border: none;
+  }
+
+ 
+  /*Calculator*/
+  table {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    border: 5px solid #092F3E;
+  
+ }
+ 
+ th, td {
+    border: 1px solid #0C4156;
+ }
+ 
+ td:hover {
+    background-color: #883949;
+    color: white;
+ }
+
+/* Activity 2 Login Page Styles */
+
+.button:hover{
+    background-color: #883949
+    
+}
+input{
+    margin: 5px;
+    padding: 5px;
+}
+/* End of Login Page */
+ 
+/*Registration starts*/
+#registration{
+border:1px solid #71071C;
+width:500px;
+}
+.gender{
+  width:500px;
+  border:none;
+}
+.hobbies{
+  width:500px;
+  border:none;
+}

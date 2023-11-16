@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .relative-container, .static-container {
+    border: 1px solid #333;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .relative-box {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: lightblue;
+  }
+  
+  .static-box {
+    position: static; /* This is the default value, so you can omit it */
+    background-color: lightcoral;
+  }
+  h1{
+    font-family: 'Bungee Spice';
+  }

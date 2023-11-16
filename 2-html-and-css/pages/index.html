@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fund of HTML</title>
+    <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+    <script type="text/javascript" src="../script/main.js"></script>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a class="active" href="#Home">Home</a></li>
+            <li><a href="#News">News</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Login">Login<img src="../images/small-logo.png" alt="logo"/></a></li>
+        </ul>
+    </nav>
+
+    <!--Activity 1 Calculator-->
+    <table>
+        <caption>Calculator</caption>
+        <thead>
+            <tr>
+                <th colspan="4"><input type="text" id="result"/></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="button" value="7" onclick="appendToResult('7')"/></td>
+                <td><input type="button" value="8" onclick="appendToResult('8')"/></td>
+                <td><input type="button" value="9" onclick="appendToResult('9')"/></td>
+                <td><input type="button" value="c" onclick="clearResult()"/></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="appendToResult('4')"/></td>
+                <td><input type="button" value="5" onclick="appendToResult('5')"/></td>
+                <td><input type="button" value="6" onclick="appendToResult('6')"/></td>
+                <td><input type="button" value="/" onclick="appendToResult('/')"/></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="appendToResult('1')"/></td>
+                <td><input type="button" value="2" onclick="appendToResult('2')"/></td>
+                <td><input type="button" value="3" onclick="appendToResult('3')"/></td>
+                <td><input type="button" value="*" onclick="appendToResult('*')"/></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" onclick="appendToResult('0')"/></td>
+                <td><input type="button" value="00" onclick="appendToResult('00')"/></td>
+                <td><input type="button" value="." onclick="appendToResult('.')"/></td>
+                <td><input type="button" value="+" onclick="appendToResult('+')"/></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><input type="button" value="=" onclick="calculateResult()"></td>
+                <td colspan="1"><input type="button" value="-" onclick="appendToResult('-')"/></td>
+            </tr>
+        </tfoot>
+        
+    </table>
+    <!--End of Calculator Activity1-->
+
+    <!--Activity 2 Creating Login Page-->
+        <div class="Login" id="#Login">
+                <form>
+                    <h1>Login</h1>
+                    Email<input type="email" placeholder="Enter your Email id"/><br/>
+                    Password<input type="password" placeholder="Password"/><br/>
+                    <button class="button" type="submit">Login</button>
+                </form>
+        </div>
+
+    <!--End of Activity 2 Login Page-->
+</body>
+</html>
+
+<!-- Registration Page Starts-->
+    <div class="Registration" id="#registration">
+        <h1>Registration</h1>
+        <form>
+            <label for="firstname">First Name</label>
+<input type="text" id="firstname"/><br/>
+
+<label for="lastname">Last Name</label>
+<input type="text" id="lastname"/><br/>
+
+<label for="email">Email</label>
+<input type="email" id="email"/><br/>
+
+<label for="password">Password</label>
+<input type="password" id="password"/><br/>
+
+<label for="confirmpassword">Confirm Password</label>
+<input type="password" id="confirmpassword"/><br/>
+
+            <fieldset class="gender">
+                <legend>Gender</legend>
+                <input type="radio" id="female" name="gender" />
+                <label for="female">Female</label>
+              
+                <input type="radio" id="male" name="gender" />
+                <label for="male">Male</label>
+              </fieldset>
+           <br/>
+            <label for="dob">Date of Birth:</label> <input type="date" id="dob" name="dob" required>
+           <br/>
+           <fieldset class="hobbies">
+            <legend>Hobbies</legend>
+            
+            <label for="exercise">Exercise</label>
+            <input type="checkbox" id="exercise"/>
+            
+            <label for="gardening">Gardening</label>
+            <input type="checkbox" id="gardening"/>
+            
+            <label for="playing">Playing</label>
+            <input type="checkbox" id="playing"/>
+        </fieldset>
+
+        </form>
+    </div>
+
+<!--Ends-->
+<!-- Drawio - Create Wireframe, Excaildraw-->
