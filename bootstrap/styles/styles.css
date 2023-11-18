@@ -1,0 +1,104 @@
+body{
+    margin:0 auto;
+    width:100%;
+}
+
+#carousel img{
+    width:100%;
+    height:750px;
+}
+
+.nav-item{
+    list-style-type: none;
+}
+
+#Sub_content1 li a {
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(108, 108, 166);
+    padding:10px 0 0 0;
+}
+/* Contact Us */
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#Student_information{
+    border: 1px solid #000;
+    width:100%;
+    margin: 170px 0 0 0;
+    height: 1000px;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(94,168,217,0.18735416529893212) 100%);
+}
+table{
+    width:100%;
+}
+#Student_information input{
+margin:35px 0 0 0;
+width:50px;
+}
+
+th,td{
+    border:1px solid palevioletred;
+}
+#sub_content4 .registration{
+    height: 1000px;
+    color:#fff;
+    width:100%;
+    margin:170px 0 0 0;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,82,29,1) 50%, rgba(252,176,69,1) 100%);
+
+}
+.registration form{
+    width:100%;
+}
+#sub_content4 h2{
+    text-align: left;
+    width:100%;
+}
+.container-fluid img{
+    width:150px;
+    height: 150px;
+}
+
+#Subjects{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color:#fff;
+    width:100%;
+    margin:170px 0 0 0;
+}
+
+#Subjects h4{
+   
+    font-weight: bold;
+    font-style: italic;
+    
+}
